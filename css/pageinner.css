@@ -1,0 +1,86 @@
+.itemBox { overflow: hidden; clear: both; padding: 10px; background-color: #f6f6f6; width: 980px; margin-top: 10px; }
+
+.leftItem { width: 489px; border-right: 1px solid #bcbdbe; float: left; height: 235px; }
+
+.rightItem { width: 480px; padding-left: 10px; float: left; }
+
+.itemImg { width: 190px; height: 235px; float: left; margin-right: 10px; }
+
+.itemTit { height: 90px; }
+.itemTit a { color: #0085c8; font-size: 18px; line-height: 36px; }
+.itemTit a:hover { color: #f60; text-decoration: underline; }
+
+.description { font-size: 16px; line-height: 32px; }
+
+.mt30 { margin-top: 30px; }
+
+.img_1 { width: 470px; height: 320px; float: left; }
+
+.imgText { font-size: 18px; line-height: 36px; padding: 20px; padding-left: 20px; float: left; width: 475px; margin-top: 30px; }
+.imgText .forg { color: #ff7110; }
+
+.contentInner { padding: 20px 10px; clear: both; overflow: hidden; font-size: 18px; line-height: 36px; }
+
+.imgbox { clear: both; overflow: hidden; margin-top: 10px; }
+
+.flft { float: left; width: 150px; margin-left: 20px; }
+.flft img { height: 109px; overflow: hidden; display: block; }
+
+.mt10 { margin-top: 10px; }
+
+.imgFl { float: left; margin-left: 10px; }
+
+.fright { width: 147px; float: left; overflow: hidden; margin-left: 10px; }
+.fright img { height: 109px; overflow: hidden; display: block; }
+
+.email_k { background-color: #E6EBEE; padding-top: 3px; padding-bottom: 3px; }
+
+.mr-10 { margin-right: -10px; padding: 0px 10px; }
+
+.smitem { padding: 10px; float: left; width: 135px; background-color: #efecec; height: 165px; overflow: hidden; margin-right: 10px; margin-bottom: 10px; }
+.smitem a { color: #333333; font-size: 18px; line-height: 30px; }
+.smitem a:hover { color: #f60; }
+
+.description { font-size: 18px; padding: 10px; overflow: hidden; clear: both; }
+.description p { text-indent: 2em; }
+
+.p10 { padding: 10px; }
+
+.f16 { font-size: 16px; line-height: 32px; }
+
+.secName { font-size: 18px; padding-left: 10px; position: relative; }
+.secName img { position: absolute; left: 0px; top: 8px; }
+
+.i1 { display: block; overflow: hidden; width: 250px; float: left; }
+.i1 img { width: 100%; vertical-align: middle; }
+
+.i2 { display: block; float: left; width: 220px; margin-right: 10px; height: 300px; }
+.i2 img { width: 100%; }
+
+.mr10 { margin-right: 10px; }
+
+.c1 { width: 578px; clear: both; overflow: hidden; float: left; }
+
+.r1 { overflow: hidden; clear: both; }
+
+.r2 { clear: both; overflow: hidden; margin-top: 10px; }
+
+.c2 { float: left; overflow: hidden; width: 382px; }
+
+.r3 { clear: both; overflow: hidden; height: 107px; }
+
+.m2 { display: block; overflow: hidden; width: 186px; float: left; }
+
+.m1 { display: block; overflow: hidden; width: 186px; height: 139px; float: left; }
+.m1 img { width: 100%; }
+
+.m3 { clear: both; overflow: hidden; display: block; width: 382px; margin-top: 10px; height: 140px; }
+.m3 img { width: 100%; height: 141px; }
+
+.m4 { float: left; width: 186px; margin-left: 10px; }
+.m4 img { width: 100%; height: 258px; }
+
+.c3 { width: 392px; float: left; margin-left: 10px; }
+
+.m5 { width: 392px; display: block; overflow: hidden; }
+.m5 img { width: 100%; vertical-align: middle; }

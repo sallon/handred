@@ -1,0 +1,9 @@
+@import "../../phone/fullpage/libs/scss/pc/global";
+@include global_reset("12px/1.5 microsoft yaihei,Arial",#333333,#fff,#0000ee,#f60);
+.content{
+  width: 1000px;
+  overflow: hidden;
+  clear: both;
+  margin: 0px auto;
+}
+@import "header_footer";

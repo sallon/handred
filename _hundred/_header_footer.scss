@@ -1,0 +1,118 @@
+$img:"../images/common/";
+.header{
+  height: 85px;
+  padding: 3px 0px 2px 0px;
+  .logo{
+    height: 85px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    img{
+      height: 85px;
+    }
+  }
+  .h_no1 {
+    float: right;
+    margin-right: 15px;
+    margin-top: 13px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .menu {
+    height: 44px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 2px;
+  }
+  .m_1 {
+    width: 6px;
+    float: left;
+    height: 44px;
+    background-image: url(#{$img}02.jpg);
+    background-repeat: no-repeat;
+  }
+  .m_2 {
+    float: left;
+    background-image: url(#{$img}03.jpg);
+    background-repeat: repeat-x;
+    height: 44px;
+    width: 1000px - 6px - 4px;
+  }
+  .m_d {
+    height: 34px;
+    width: 146px;
+    margin-top: 3px;
+    background-image: url(#{$img}05.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    font-weight: bold;
+    a{
+      color: #FFFFFF;
+      &:hover,&.active {
+        background-color: #005CBF;
+        display: block;
+        color: #FFFFFF;
+        text-decoration: none;
+        background-image: url(#{$img}10.jpg);
+        height: 34px;
+        width: 146px;
+      }
+    }
+  }
+  .m_3 {
+    background-image: url(#{$img}04.jpg);
+    float: left;
+    height: 44px;
+    width: 4px;
+    background-repeat: no-repeat;
+  }
+}
+.footer{
+  clear: both;
+  margin-top: 10px;
+}
+.bottow {
+  width: 1000px;
+  background-image: url(#{$img}14.jpg);
+  background-repeat: repeat-x;
+  height: 33px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #333333;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 50px;
+}
+/*seo*/
+  .seo{
+    margin-left: 10px;
+    line-height: 30px;
+    height: 30px;
+    padding-left: 13px;
+    position: relative;
+    font-size: 14px;
+    color: #333;
+    font-weight: normal;
+    clear: both;
+    img{
+      position: absolute;
+      top: 8px;
+      left: 0px;
+    }
+  }
+  .itemName{
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    padding-left: 10px;
+    border-bottom: 2px solid #019cde;
+    font-weight: bold;
+  }

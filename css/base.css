@@ -1,0 +1,52 @@
+/*reset*/
+body { font: 12px/1.5 microsoft yaihei,Arial; background-color: #fff; color: #333333; }
+
+html, body, p, dl, dt, dd, table, td, th, input, img, form, div, span, ul, ol, li, h1, h2, h3, h4, h5, h6, select, fieldset, button, sub, sup, textarea { margin: 0; padding: 0; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+
+img { border: 0 none; }
+
+em, i { font-style: normal; }
+
+ul, ol { list-style: none outside none; }
+
+.clearfix:after { content: ""; display: block; clear: both; }
+
+.clearfix { *zoom: 1; }
+
+a { color: #0000ee; text-decoration: none; }
+
+a:hover { color: #f60; text-decoration: underline; }
+
+:focus { outline: 0; }
+
+.clear { clear: both; overflow: hidden; font-size: 0; height: 0; line-height: 0; }
+
+input, textarea, select { background-color: #ffffff; }
+
+.content { width: 1000px; overflow: hidden; clear: both; margin: 0px auto; }
+
+.header { height: 85px; padding: 3px 0px 2px 0px; }
+.header .logo { height: 85px; display: block; overflow: hidden; float: left; }
+.header .logo img { height: 85px; }
+.header .h_no1 { float: right; margin-right: 15px; margin-top: 13px; font-size: 14px; line-height: 20px; }
+.header .menu { height: 44px; width: 1000px; margin: 0 auto; margin-top: 2px; }
+.header .m_1 { width: 6px; float: left; height: 44px; background-image: url(../images/common/02.jpg); background-repeat: no-repeat; }
+.header .m_2 { float: left; background-image: url(../images/common/03.jpg); background-repeat: repeat-x; height: 44px; width: 990px; }
+.header .m_d { height: 34px; width: 146px; margin-top: 3px; background-image: url(../images/common/05.jpg); background-position: right; background-repeat: no-repeat; font-family: Geneva, Arial, Helvetica, sans-serif; text-transform: uppercase; color: #FFFFFF; font-size: 12px; text-align: center; line-height: 40px; float: left; font-weight: bold; }
+.header .m_d a { color: #FFFFFF; }
+.header .m_d a:hover, .header .m_d a.active { background-color: #005CBF; display: block; color: #FFFFFF; text-decoration: none; background-image: url(../images/common/10.jpg); height: 34px; width: 146px; }
+.header .m_3 { background-image: url(../images/common/04.jpg); float: left; height: 44px; width: 4px; background-repeat: no-repeat; }
+
+.footer { clear: both; margin-top: 10px; }
+
+.bottow { width: 1000px; background-image: url(../images/common/14.jpg); background-repeat: repeat-x; height: 33px; margin-right: auto; margin-left: auto; color: #333333; font-size: 12px; text-align: center; margin-top: 20px; padding-top: 50px; }
+
+/*seo*/
+.seo { margin-left: 10px; line-height: 30px; height: 30px; padding-left: 13px; position: relative; font-size: 14px; color: #333; font-weight: normal; clear: both; }
+.seo img { position: absolute; top: 8px; left: 0px; }
+
+.itemName { height: 36px; line-height: 36px; font-size: 18px; padding-left: 10px; border-bottom: 2px solid #019cde; font-weight: bold; }
